@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+html {
+    background-color: black; /* Define o fundo preto para o elemento <html> */
+}
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fo-Bran Distribuidora de Bebidas ltda</title>
+
+    <!-- Adicione as bibliotecas Bootstrap CSS e JavaScript -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Adicione um ícone à guia -->
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/1157576917671751760/1157576941042421790/304767617_394057486223675_8698213234679039912_n.png?ex=65191d09&is=6517cb89&hm=92b0ddc3956c8dc7130bd295a5caa2d2a8f635d1238cef8dfac3ed33fed1737c&"> <!-- Substitua 'seu-icone.ico' pelo caminho do seu ícone -->
+
+    <!-- CSS personalizado para centralizar o carrossel e adicionar o plano de fundo -->
+    <style>
+        html {
+    background-color: black; /* Define o fundo preto para o elemento <html> */
+}
+
+body {
+    background: transparent; /* Define um plano de fundo transparente para o elemento <body> */
+    margin: 0; /* Remove margens padrão do corpo */
+    padding: 0; /* Remove preenchimento padrão do corpo */
+}
+
+.background-image {
+    /* Aqui você pode definir a imagem de plano de fundo e ajustar as propriedades de tamanho conforme necessário */
+    background-image: url('https://cdn.discordapp.com/attachments/1157576917671751760/1157582120089296977/275986477_1908064316060245_3748859637465447038_n.png?ex=651921dc&is=6517d05c&hm=fcb7b5c13de4013027d465c8dd6eb470c54466f0d6eb7049b032a55460c41e2d&');
+    background-repeat: no-repeat;
+    background-size: cover; /* Cobrir a página inteira com a imagem */
+    background-position: center; /* Centralizar a imagem */
+    min-height: 100vh; /* Garante que o conteúdo preencha pelo menos a altura da janela */
+}
+
+        body {
+            background: url('https://cdn.discordapp.com/attachments/1157576917671751760/1157582120089296977/275986477_1908064316060245_3748859637465447038_n.png?ex=651921dc&is=6517d05c&hm=fcb7b5c13de4013027d465c8dd6eb470c54466f0d6eb7049b032a55460c41e2d&') no-repeat center center fixed;
+            background-size: 1300px 900px; /* Substitua com os valores desejados */
+}
+
+        .center-vertically {
+            display: flex;
+            flex-direction: column;
+            /* Centralize verticalmente */
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            /* Centralize o texto horizontalmente */
+        }
+
+        /* Estilo para o título e subtítulo com letras brancas */
+        h2,
+        h3 {
+            color: white;
+            /* Cor do texto do título e subtítulo */
+        }
+
+        /* Estilo para a imagem da "thumb" com plano de fundo */
+        .thumb-container {
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Cor do plano de fundo (preto com 50% de transparência) */
+            padding: 10px;
+            border-radius: 10px;
+            margin-top: 20px;
+            /* Espaço entre a imagem e o título */
+        }
+
+        .thumb-image {
+            max-height: 200px;
+            /* Altura máxima da imagem */
+            width: auto;
+            /* Largura ajustável para manter a proporção */
+        }
+
+        /* Estilo para os botões abaixo do carrossel */
+        .carousel-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .carousel-buttons button {
+            margin: 5px;
+        }
+
+        .thumb-image {
+    width: 100px; /* Largura desejada */
+    height: auto; /* A altura se ajustará automaticamente para manter a proporção */
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="container-fluid center-vertically">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Rota Jaborá</h2>
+
+                <div id="mapCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="thumb-container">
+                                <h3>Lanchonete Pasquali</h3>
+                                <img class="thumb-image" src="https://cdn.discordapp.com/attachments/1157576917671751760/1157576941042421790/304767617_394057486223675_8698213234679039912_n.png?ex=65191d09&is=6517cb89&hm=92b0ddc3956c8dc7130bd295a5caa2d2a8f635d1238cef8dfac3ed33fed1737c&" alt="Thumb Image">
+                            </div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3551.02899243578!2d-51.71490142374632!3d-27.12389677652192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e38b17962ab16f%3A0x335ed0d0b7010881!2sLanchonete%20e%20Restaurante%20Pasquali!5e0!3m2!1spt-BR!2sbr!4v1696056553851!5m2!1spt-BR!2sbr"
+                                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <!-- Adicione mais slides aqui conforme necessário -->
+                        <div class="carousel-item">
+                            <div class="thumb-container">
+                                <h3>Casa da Uva boa</h3>
+                                <img class="thumb-image" src="https://cdn.discordapp.com/attachments/1157576917671751760/1157576941042421790/304767617_394057486223675_8698213234679039912_n.png?ex=65191d09&is=6517cb89&hm=92b0ddc3956c8dc7130bd295a5caa2d2a8f635d1238cef8dfac3ed33fed1737c&" alt="Thumb Image">
+                            </div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7099.566293155636!2d-51.73384974167124!3d-27.163112373867186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e38c78bb4ca1b3%3A0x563cb0016c2f06ee!2sCasa%20Da%20Uva%20Boa!5e0!3m2!1spt-BR!2sbr!4v1696057020723!5m2!1spt-BR!2sbr"
+                                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="thumb-container">
+                                <h3>Mercado da Família</h3>
+                                <img class="thumb-image" src="https://cdn.discordapp.com/attachments/1157576917671751760/1157576941042421790/304767617_394057486223675_8698213234679039912_n.png?ex=65191d09&is=6517cb89&hm=92b0ddc3956c8dc7130bd295a5caa2d2a8f635d1238cef8dfac3ed33fed1737c&" alt="Thumb Image">
+                            </div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d887.3639647889592!2d-51.734552047491746!3d-27.173405754606463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e38c7aeaf30ce9%3A0x963041604b9c5812!2sMercado%20Tizatto!5e0!3m2!1spt-BR!2sbr!4v1696059948789!5m2!1spt-BR!2sbr"
+                            width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="thumb-container">
+                                <h3>Mercado da Savoldi</h3>
+                                <img class="thumb-image"
+                                    src="https://cdn.discordapp.com/attachments/1157576917671751760/1157576941042421790/304767617_394057486223675_8698213234679039912_n.png?ex=65191d09&is=6517cb89&hm=92b0ddc3956c8dc7130bd295a5caa2d2a8f635d1238cef8dfac3ed33fed1737c&"
+                                    alt="Thumb Image">
+                            </div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d887.3639647889592!2d-51.734552047491746!3d-27.173405754606463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94e38c7a89c3236d%3A0x5e9bc4440be9b0ca!2sMercado%20Savoldi!5e0!3m2!1spt-BR!2sbr!4v1696060409819!5m2!1spt-BR!2sbr"
+                                width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Botões de Navegação do Carrossel -->
+                    <a class="carousel-control-prev" href="#mapCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#mapCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
+
+                <!-- Botões "Anterior" e "Próximo" abaixo do slide -->
+                <div class="carousel-buttons">
+                    <button class="btn btn-secondary" id="prevSlide">Anterior</button>
+                    <button class="btn btn-secondary" id="nextSlide">Próximo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script JavaScript para controlar a navegação do carrossel -->
+    <script>
+        $(document).ready(function () {
+            var mapCarousel = $("#mapCarousel");
+
+            // Pausar o carrossel ao iniciar
+            mapCarousel.carousel({
+                interval: false
+            });
+
+            // Quando o botão "Anterior" abaixo do slide é clicado
+            $("#prevSlide").click(function () {
+                mapCarousel.carousel("prev");
+                mapCarousel.carousel("pause"); // Pausar o carrossel após a navegação
+            });
+
+            // Quando o botão "Próximo" abaixo do slide é clicado
+            $("#nextSlide").click(function () {
+                mapCarousel.carousel("next");
+                mapCarousel.carousel("pause"); // Pausar o carrossel após a navegação
+            });
+        });
+    </script>
+
+</body>
+
+</html>
